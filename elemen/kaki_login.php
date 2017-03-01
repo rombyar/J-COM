@@ -1,0 +1,4 @@
+	<footer>&copy; Copyright J-Com , <?php echo date('Y') ?> All Rights Reserved <span style="font-size:12px;"><a href="#PembuatWebJCom" title="Web Developers" onclick="open_new100()" ><font color="white">?</font></a></span></footer>
+	<script>function open_new100(){var newW=window.open("","","width=200%,height=150px");newW.document.write
+	("<u><b style='font-size:20px;'>Nama Kelompok:</b></u><br>- <a style='text-decoration:none;' href='http://www.romadhon-byar.com/' title='Web Romadhon-Byar' target='_new'>Ahmad Romadhon</a>.<br>- Hanna Zulia Rahma.<br><br><u><b style='font-size:20px;'>Kelas:</b></u><br>- 3TIPS6 or 3WPS6");}</script>
+</div>

@@ -1,0 +1,708 @@
+*{padding:0px;margin:0px;font-family:calibri;} body{background:#ffffff;}
+#wraf{
+    width:82%;
+    margin:auto;
+	position:relative;
+	margin-top:5px;
+	margin-bottom:30px;
+	padding:1px;
+	background:#181d21;
+    box-shadow:1px 2px 8px #000000,2px 1px 8px #ffffff;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:0px;
+}
+#header{width:100%;height:auto;text-align:center;}
+
+.GarisKepala{height:3px;background:#3399FF;margin-bottom:1px;}
+
+#konten{
+	width:100%;
+	height:auto;
+	border-right:1% solid;
+}
+
+/*
+==========Index
+*/
+.kontenIndex2{
+	width:100%;
+	height:auto;
+	background:white;
+}
+.h2{
+	background: none repeat scroll 0px center transparent;
+    background-color: transparent;
+    background-image: none;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: 0px center;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: auto auto;
+	font-size: 18px;
+	line-height: 32px;
+	color: rgb(0, 0, 0);
+}
+
+
+/*
+==========Index
+*/
+
+
+/*.MenuTop
+{
+	width:100%;
+	position:fixed;
+	top:0;
+}
+*/
+
+/*==For */
+#kontenkiri{
+    width:66%;
+	height:500px;
+    float:left;
+	background: #FFFFFF;
+	border-bottom-left-radius: 0px;
+}
+
+#kontenkanan{
+	margin-top:;
+    width:34%; 
+	height:500px;
+    float:right;
+	background: #3399FF;
+	border-bottom-right-radius: 0px;
+}
+
+
+
+
+/*
+===================================
+CSS For SA-PE-2
+===================================
+*/
+#kontenkiriSAPE2{
+    width:44.9%;
+	height:20%;
+    float:left;
+	
+	border-right:1% solid;
+	background: #3399FF;
+	border-bottom-left-radius: 0px;
+}
+#kontenkananSAPE2{
+    width:55%;
+	height:20%;
+    float:right;
+	background: #FFFFFF;
+	border-bottom-right-radius: 0px;
+}
+
+/*
+===================================
+CSS For SA
+===================================
+*/
+#kontenkiriSA{
+    width:100%;
+	height:500px;
+    float:left;
+	background: #FFFFFF;
+	border-bottom-left-radius: 0px;
+}
+
+
+
+/*
+===================================
+CSS For SA
+===================================
+*/
+#kontenkiriUU{
+    width:100%;
+	height:500px;
+    float:left;
+	background: #FFFFFF;
+	border-bottom-left-radius: 0px;
+}
+
+
+
+
+
+
+#Daftar{
+    width:43%;
+	height:570px;
+    float:left;
+	border-bottom-right-radius: 0px;
+}
+
+
+/*
+=================================== FIX
+CSS For SAPE
+===================================
+*/
+#kontenkiriSAPE{
+    width:43%;
+	height:570px;
+    float:left;
+	border-bottom-right-radius: 0px;
+}
+
+#kontenkananSAPE{
+	width:56%;
+	height:570px;
+    float:right;
+	border-right:1% solid;
+}
+
+/*
+=================================== FIX
+CSS for User
+===================================
+*/
+#kontenSAPE{
+	width:100%;
+	height:570px;
+	border-right:1% solid;
+}
+#kontenkiriUU{
+    width:100%;
+	height:570px;
+	border-bottom-right-radius: 0px;
+}
+
+/*
+=================================== FIX
+CSS for Profil
+===================================
+*/
+#kontenkiriProfil{
+    width:45%;
+	height:450px;
+    float:left;
+	background: #FFFFFF;
+	border-bottom-left-radius: 0px;
+}
+#kontenkananProfil{
+    width:55%;
+	height:450px;
+    float:right;
+	background: #FFFFFF;
+	border-bottom-right-radius: 0px;
+}
+
+/*
+=================================== FIX
+CSS for Berita
+===================================
+*/
+#kontenkananBerita{
+    width:100%;
+	height:500px;
+    float:right;
+	margin-left:10%;
+	background: #FFFFFF;
+	border-bottom-right-radius: 0px;
+}
+
+#PosBerita{
+    width:100%;
+	height:570px;
+	background: #FFFFFF;
+	border-bottom-right-radius: 0px;
+}
+
+#kontenOLTB{
+    width:100%;
+	height:570px;
+    float:left;
+	
+	border-bottom-left-radius: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
+======================
+Gaya For Index
+======================
+*/
+
+
+#kontenIndex{
+	height:500px;
+}
+
+#kontenkiriIndex{
+    width:65%;
+	height:500px;
+    float:left;
+	background:#ffffff;
+	border-bottom-left-radius: 0px;
+}
+.kontenkananIndex{
+	height:500px;
+    float:right;
+	background:#ffffff;
+	border-bottom-left-radius: 0px;
+}
+
+
+#kontenkiriIndexU{
+    width:65%;
+	height:390px;
+    float:left;
+	background:#ffffff;
+	border-bottom-left-radius: 0px;
+}
+.kontenkananIndexU{
+	height:390px;
+    float:right;
+	background:#ffffff;
+	border-bottom-left-radius: 0px;
+}
+
+/*
+======================
+Gaya For Index
+======================
+*/
+.kontenkiriTentang{
+    width:65%;
+	height:500px;
+    float:left;
+	background:#ffffff;
+	border-bottom-left-radius: 0px;
+}
+.kontenkananTentang{
+	height:500px;
+    float:right;
+	background:#ffffff;
+	border-bottom-left-radius: 0px;
+}
+
+
+/*========================
+Konten 2 Bawah
+========================*/
+/*konten2*/
+#konten2{width: 100%;height: 210px;background: #FFFFFF; }
+#kontenkiri2{margin-bottom:5px;color:#ffffff; width:66%;height:210px;float:left;-moz-border-radius:0px;-webkit-border-radius:0px;background:#333333;}
+#kontenkanan2{margin-bottom:5px;color:#ffffff;  width:33.9%;height:210px;float:right;-moz-border-radius:0px;-webkit-border-radius:0px;background:#333333;}
+
+
+
+/*========================
+Navigasi
+========================*/
+
+.Navigasi {font-size:0.75em; width:35%;}
+.Navigasi ul {margin:0px; padding:0px;}
+.Navigasi li {list-style: none;} 
+
+ul.top-level {background:#333333;}
+ul.top-level li {
+ border-bottom: #fff solid;
+ border-top: #fff solid;
+ border-width: 1px;
+}
+
+.Navigasi a {
+ color: #fff;
+ cursor: pointer;
+ display:block;
+ height:25px;
+ line-height: 25px;
+ text-indent: 10px;
+ text-decoration:none;
+ width:100%;
+}
+.Navigasi a:hover{
+ text-decoration:none;
+ color:white;
+}
+
+.Navigasi li:hover {
+ background: #3399FF;
+ position: relative;
+}
+
+
+
+
+/*
+======================
+Gaya For Index
+======================
+*/
+
+.h3
+{
+	border-bottom: 1px dotted #31C7FF;
+	margin-top:2px;
+	margin-left:2%;
+	margin-right:2%;
+	margin-bottom:2%;
+}
+
+/*
+======================
+======================
+*/
+.h3Index{
+	border-bottom: 1px dotted #31C7FF;
+	margin-left:2%;
+	margin-right:2%;
+	margin-bottom:1%;
+}
+
+.h3Produk{
+	color: #fff;
+	margin:2%;
+}
+
+.h3Login{
+	border-bottom: 1px dotted #31C7FF;
+	margin-right:2%;
+	margin-left:2%;
+}
+
+/*masalah*/
+.input    {
+	width:375px;
+	display:block;
+	height: 20px;
+	border: 1px solid #999;
+	--webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	--moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+.yahoo
+{
+	margin:15px;
+	font-size:12;
+}
+
+/*table
+{
+	margin-left:2%;
+}*/
+
+#tableUser
+{
+	margin-top:6%;
+}
+
+#table1
+{
+	margin-top:5.3%;	
+	margin-left:3%;
+}
+
+#table2
+{
+	margin-top:4%;
+	margin-left:8%;
+	margin-right:8%;
+}
+
+#tableBerita
+{
+	margin-top:2%;
+	margin-left:3%;
+	margin-right:3%;
+	margin-bottom:2%;
+}
+
+input, textarea, option, select
+{
+	font-size:15px;
+}
+
+/*masalah*/
+.tableMenu
+{
+	margin-top:2%;
+	margin-left:2%;
+}
+
+.tombol {
+	-moz-box-shadow: 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow: 0px 1px 0px 0px #ffffff;
+	box-shadow: 0px 1px 0px 0px #ffffff;
+	background-color:#ededed;
+	-webkit-border-top-left-radius:0px;
+	-moz-border-radius-topleft:0px;
+	border-top-left-radius:0px;
+	-webkit-border-top-right-radius:0px;
+	-moz-border-radius-topright:0px;
+	border-top-right-radius:0px;
+	-webkit-border-bottom-right-radius:0px;
+	-moz-border-radius-bottomright:0px;
+	border-bottom-right-radius:0px;
+	-webkit-border-bottom-left-radius:0px;
+	-moz-border-radius-bottomleft:0px;
+	border-bottom-left-radius:0px;
+	text-indent:0;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#777777;
+	font-weight:bold;
+	font-style:normal;
+	height:30px;
+	width:60px;
+	line-height:50px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #ffffff;
+	margin:2px;
+}
+
+.tombol:hover 
+{
+	background-color:#dfdfdf;
+}
+
+.tombol:active {
+	position:relative;
+	top:1px;
+}
+
+input,.inputS ,.inputTL  {
+	width:100%;
+	display:block;
+	height: 20px;
+	border: 1px solid #000;
+	--webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	--moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	
+}
+
+textarea
+{
+	width:100%;
+	display:block;
+	border: 1px solid #000;
+	height: 50px;
+	--webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	--moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+footer{
+    height:auto;
+	--text-shadow:1px 1px 6px ;
+	font-size:12px;
+	background:#181d21;
+	color:#ffffff;
+}
+
+
+/* For Table
+====================
+*/
+ #tabelwarna { width: auto;}
+.th {
+    color: #4f6b72;
+    border-right: 1px solid #C1DAD7;
+    border-bottom: 1px solid #C1DAD7;
+    border-top: 1px solid #C1DAD7;
+    text-transform:;
+    padding: 6px 6px 6px 6px;
+    background: #CAE8EA url(images/bg_header.jpg) no-repeat;
+	font-size:13px;
+}
+
+.td {
+    font: bold 11px center;
+    border-right: 1px solid #C1DAD7;
+    border-bottom: 1px solid #C1DAD7;
+    border-left: 1px solid #C1DAD7;
+    padding: 6px 6px 6px 6px;
+}
+
+.tr {
+    background: #F5FAFA;
+    color: #797268;
+}
+
+
+a{text-decoration:none;}
+
+/* Navigasi Kanan
+====================*/
+.nvskanan
+{
+	text-align:right;
+	right:100%;
+	margin-top:-29px;	
+}
+
+.nvskanan a
+{
+	display: inline-block;
+	padding:5px;
+	border-radius: 5px;
+	color: #ddd;
+	background: #3399FF;
+}
+
+.nvskanan a:hover{
+				color: #fff;
+			}
+
+/* Menu
+====================*/
+#twd-menu ul{
+	list-style-type: none;
+	padding: 0;
+	background: #3399FF;
+}
+	#twd-menu{
+	filter: alpha (opacity = 50);
+	-moz-opacity: 0.5;
+	-khtml-opacity: 0.5;
+	--box-shadow:1px 0px 2px #000000,2px 1px 8px #000000;
+	/*
+	width:100%;
+	position:fixed;
+	top:0;
+	*/
+	}
+
+	#twd-menu ul li{
+		display: inline-block;
+		background: #3399FF;
+		
+	}
+		#twd-menu ul li a{
+			display: inline-block;
+			padding:5px;
+			border-radius: 5px;
+			color: #ddd;
+			background: #3399FF;
+			
+		}
+			#twd-menu ul li a:hover{
+				background:#181d21;
+				border-radius:1px;
+				color: #fff;
+			}
+			
+
+/*==================
+Slider
+==================*/
+/* Accordion Featured Post Slider @ TipsTrikBlogging.com */
+#tbi_slider {
+    overflow: hidden;
+    margin: 2% auto;
+    padding: 0;
+    width: 95%;
+    height: 320px;
+	-webkit-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+}
+#tbi_slider ul {
+    margin: 0;
+    padding: 0;
+    width: 200%;
+}
+#tbi_slider li {
+    position: relative;
+    display: block;
+	float: left;
+    width: 160px;
+    border-left: 1px solid #888;
+	-webkit-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+#tbi_slider ul:hover li {
+    width: 40px;
+}
+#tbi_slider ul li:hover {
+    width: 640px;
+}
+#tbi_slider li img {
+    display: block;
+    width: 640px;
+}
+#tbi_title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    width: 640px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font: bold 16px 'trebuchet MS', sans-serif;
+}
+#tbi_title a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+/* Accordion Featured Post Slider @ TipsTrikBlogging.com */
+
+
+/*==================
+Gaya Produk
+==================*/
+.hoverbox{ cursor: default;list-style: none;}
+.hoverbox a .preview{ display: none;}
+.hoverbox a:hover .preview{ display: block;position: absolute;top: -33px;left: -45px;z-index: 1;}
+.hoverbox img{ background: #fff; border:1px solid #ccc; color: inherit; padding: 2px;vertical-align: top;width: 100px;height: 95px;}
+.hoverbox li{ background: #eee; border:1px solid #ddd; color: inherit; display: inline;float: left;margin: 3px;padding: 5px;position: relative;}
+.hoverbox .preview{ border-color: #000;width: 200px;height: 150px;}
+
+
+/*==================
+Gaya Produk 2
+==================*/
+.produk {
+    float: left;
+	border: 1px solid yelow;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.clearfloat {
+    clear: both;
+}
+.KotakKet {
+	padding: 5px;
+	float: left;
+    background: none repeat scroll 0 0 #FF99;
+	}
+	
+/*==================
+ScrollBar Kanan
+==================*/
+::-webkit-scrollbar {
+      width: 8px;
+      height: 12px;
+      background: #ffffff;
+     }
+
+   ::-webkit-scrollbar-thumb {
+      background-color: #333;
+      }
