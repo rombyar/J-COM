@@ -1,0 +1,185 @@
+body
+{
+	background:#B3BFBC;
+	font-size:85%;
+	
+}
+/*---- menu -----------------------------------*/
+#menu
+{
+	
+	height:30px;
+	background:#478D7A;
+	
+}
+#eis
+{
+	text-align:right;
+	margin-left:307px;
+	border-right: none;
+}
+#eis a
+{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 0px 0px;
+	letter-spacing: 1.5px;
+	text-decoration:underline;
+}
+.dropmenu {
+		background: #616161;
+		height: 30px;
+		list-style-type: none;
+		margin: 0;
+		padding: 0px;
+		width:700px;
+		margin: 0 auto; /*biar di tengah*/
+	}
+.dropmenu ul {
+	left: -9999px;
+	list-style-type: none;
+	position: absolute;
+	top: -9999px;
+}
+.dropmenu li {
+	border-right: solid 1px white;
+	float: left;
+	width:auto;
+	height: 26px;
+	text-align:center;
+	padding: 2px 2px;
+}
+.dropmenu p
+{
+	text-align:center;
+}
+.dropmenu li a {
+	color: #fff;
+	display: block;
+	float: center;
+	font: 12px arial, verdana, sans-serif;
+	font-weight: bold;
+	padding: 0px 30px;
+	margin-top:-5px;
+	text-decoration: none;
+	text-align:left;
+}
+.dropmenu li:hover 
+{ 
+	background: #778899;
+	position: relative;
+}
+.dropmenu li:hover a 
+{ 
+	text-decoration: none; 
+}
+.dropmenu li:hover ul
+{
+	/*background-color: #3f4a54;*/
+	/*border: 1px solid grey;*/
+	left: 0px;
+	padding: 0px;
+	top: 30px;
+}
+.dropmenu li:hover ul li 
+{ 
+	border: none; 
+	height: 25px; 
+}
+.dropmenu li:hover ul li a 
+{
+	background-color: #778899;
+	border: 1px solid transparent;
+	color: #fff;
+	display: block;
+	font-size: 11px;
+	height: 20px;
+	line-height: 18px;
+	text-decoration: none;
+	text-indent: 5px;
+	width: 150px;
+	padding: 3px;
+}
+.dropmenu li:hover ul li a:hover {
+background: silver;
+border: solid 1px #444;
+color: #000;
+height: 20px;
+}
+
+/*---- content -----------------------------------*/
+#content
+{
+	margin: 0 auto;
+	width: 700px;
+	height: auto;
+	margin-top: 15px;
+	padding: 0 0 20px 0;
+	background: #478D7A;
+}
+#content h2
+{
+	text-align: center;
+	letter-spacing: 10px;
+	padding: 25px 0px 10px 0px;
+}
+#content form
+{
+	padding: 20px 50px 20px 50px;
+}
+#content legend
+{
+	font-weight: bold;
+	font-size: 15px;
+	letter-spacing: 3px;
+	margin-left: 10px;
+}	
+#content p
+{
+	font-size: small;
+}
+#content table
+{
+	padding-right:15px;
+	padding-left:15px;
+}
+#content td
+{
+	width:140px;
+}
+#content textarea
+{
+	font-size: 15px;
+}
+
+#content h3
+{
+	font-size: small;
+}
+#content-submit
+{
+	margin-top:20px;
+	padding: 5px 20px 5px 20px;
+	float:right;
+}
+
+#content-button
+{
+	padding: 1px 20px 1px 20px;
+}
+/*---- footer -----------------------------------*/
+#footer
+{
+	margin:0 auto;
+	width:700px;
+	height:50px;
+	background:#80AFA2;
+}
+#footer p {
+	margin: 0;
+	padding: 20px 0px 15px 0px;
+	text-align: center;
+	font-size: smaller;
+	color: #DEF63D;
+}
