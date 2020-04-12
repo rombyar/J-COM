@@ -245,7 +245,7 @@ CREATE TABLE IF NOT EXISTS `tb_pegawai` (
 --
 
 INSERT INTO `tb_pegawai` (`id_pegawai`, `username`, `password`, `nama_pegawai`, `jenis_kelamin`, `agama`, `alamat`, `no_hp`, `tanggal_lahir`, `umur`, `email`, `jabatan`, `tanggal_daftar`) VALUES
-(1, 'SA', '82c531a250b94cf3cc2eb956cc04e353', 'Ahmad Romadhon', 'Pria', 'Islam', 'Jl.Raya Pasar Kecapi RT/4 RW/3', '08958786665', '1994-03-10', '19', 'romadhon.byar@gmail.com', 'Super Admin', '2013-12-11'),
+(1, 'SA', '82c531a250b94cf3cc2eb956cc04e353', 'Ahmad Romadhon', 'Pria', 'Islam', 'Jl.Raya Pasar Kecapi RT/4 RW/3', '08958786665', '1994-03-10', '19', 'user@gmail.com', 'Super Admin', '2013-12-11'),
 (2, 'Admin', '82c531a250b94cf3cc2eb956cc04e353', 'Hanna Zulia Rahma', 'Wanita', 'Islam', 'Jl.Apa Saja', '08933333365', '1994-03-10', '19', 'hanna@gmail.com', 'Admin', '2013-12-11'),
 (3, 'CS', '82c531a250b94cf3cc2eb956cc04e353', 'Rahma Sina', 'Wanita', 'Islam', 'Jl.Raya Apa', '08958446665', '1994-01-31', '19', 'rara@gmail.com', 'CS', '2013-12-11');
 
@@ -281,9 +281,9 @@ CREATE TABLE IF NOT EXISTS `tb_pelanggan` (
 
 INSERT INTO `tb_pelanggan` (`id_pelanggan`, `akses`, `username`, `password`, `nama_pelanggan`, `jenis_kelamin`, `email`, `alamat`, `kota`, `provinsi`, `kode_pos`, `no_hp`, `no_ktp`, `tanggal_lahir`, `tanggal_daftar`) VALUES
 (1, 'User', 'Hanna', '82c531a250b94cf3cc2eb956cc04e353', 'Hanna', 'Wanita', 'hanna@gmail.com', '', '', '', '', '', '', '', '2013-12-29'),
-(2, 'User', 'romadhonbyar', '82c531a250b94cf3cc2eb956cc04e353', 'Ahmad Romadhon', 'Pria', 'romadhon.byar@gmail.com', 'Jl.Raya Pasar Kecapi', 'Bekasi', 'Jawa Barat', '17415', '08978596665', '1098329128391289', '1994-03-10', '2013-12-29'),
+(2, 'User', 'romadhonbyar', '82c531a250b94cf3cc2eb956cc04e353', 'Ahmad Romadhon', 'Pria', 'user@gmail.com', 'Jl.Raya Pasar Kecapi', 'Bekasi', 'Jawa Barat', '17415', '0897000000', '1098329128391289', '1994-03-10', '2013-12-29'),
 (3, 'User', 'Nur', '82c531a250b94cf3cc2eb956cc04e353', 'Nur Rahmad', 'Pria', 'nu@g.com', '', '', '', '', '', '', '', '2014-01-05'),
-(4, 'User', 'User', '4814da5ded83a814d55b3eca6438ad62', 'User Coba', 'Pria', 'romadhon.byar@gmail.com', 'Jl.Raya Kerja Bakti', 'Solo', 'Jawa Tengah', '19023', '02910903940394', '0219834993498237', '1991-01-24', '2014-01-05');
+(4, 'User', 'User', '4814da5ded83a814d55b3eca6438ad62', 'User Coba', 'Pria', 'user@gmail.com', 'Jl.Raya Kerja Bakti', 'Solo', 'Jawa Tengah', '19023', '02910903940394', '0219834993498237', '1991-01-24', '2014-01-05');
 
 -- --------------------------------------------------------
 
@@ -313,10 +313,10 @@ CREATE TABLE IF NOT EXISTS `tb_pembayaran` (
 --
 
 INSERT INTO `tb_pembayaran` (`id_pembayaran`, `id_pelanggan`, `no_pemesanan`, `nama_pelanggan`, `email`, `jumlah_pembayaran`, `tanggal_pembayaran`, `bank_tujuan`, `metode_pembayaran`, `jam_konfirmasi`, `status_pembayaran`) VALUES
-(1, 2, 'TR0001', 'Ahmad Romadhon', 'romadhon.byar@gmail.com', '4820000', '2014-01-08', 'Bank Mandiri', 'Setoran Tunai', '06:11:18', 'Menunggu Konfirmasi'),
-(2, 2, 'TR0004', 'Ahmad Romadhon', 'romadhon.byar@gmail.com', '9800800', '2014-01-08', 'Bank Mandiri', 'Setoran Tunai', '06:27:28', 'Pembayaran Sukses'),
-(3, 2, 'TR0003', 'Ahmad Romadhon', 'romadhon.byar@gmail.com', '4520000', '2014-01-08', 'Bank Mandiri', 'Mobile Banking', '06:28:41', 'Pembayaran Sukses'),
-(4, 4, 'TR0007', 'User Coba', 'romadhon.byar@gmail.com', '19521000', '2014-01-08', 'Bank Mandiri', 'Setoran Tunai', '07:59:01', 'Pembayaran Sukses');
+(1, 2, 'TR0001', 'Ahmad Romadhon', 'user@gmail.com', '4820000', '2014-01-08', 'Bank Mandiri', 'Setoran Tunai', '06:11:18', 'Menunggu Konfirmasi'),
+(2, 2, 'TR0004', 'Ahmad Romadhon', 'user@gmail.com', '9800800', '2014-01-08', 'Bank Mandiri', 'Setoran Tunai', '06:27:28', 'Pembayaran Sukses'),
+(3, 2, 'TR0003', 'Ahmad Romadhon', 'user@gmail.com', '4520000', '2014-01-08', 'Bank Mandiri', 'Mobile Banking', '06:28:41', 'Pembayaran Sukses'),
+(4, 4, 'TR0007', 'User Coba', 'user@gmail.com', '19521000', '2014-01-08', 'Bank Mandiri', 'Setoran Tunai', '07:59:01', 'Pembayaran Sukses');
 
 -- --------------------------------------------------------
 
@@ -357,19 +357,19 @@ CREATE TABLE IF NOT EXISTS `tb_pemesanan` (
 --
 
 INSERT INTO `tb_pemesanan` (`id_pemesanan`, `id_barang`, `id_pelanggan`, `no_pemesanan`, `qty`, `foto_barang`, `jam_pesan`, `tanggal_pesan`, `status_pemesanan`, `username`, `nama_pelanggan`, `jenis_kelamin`, `alamat`, `kota`, `provinsi`, `kode_pos`, `email`, `no_hp`, `no_ktp`, `tanggal_lahir`) VALUES
-(1, 11, 2, 'TR0001', '1', 'asus4.gif', '23:07:19', '07-01-14', '-', 'romadhonbyar', 'Ahmad Romadhon', 'Pria', 'Jl.Raya Pasar Kecapi', 'Bekasi', 'Jawa Barat', '17415', 'romadhon.byar@gmail.com', '08978596665', '1098329128391289', '1994-03-10'),
-(2, 9, 2, 'TR0002', '2', 'asus2.jpg', '05:56:22', '07-01-14', '-', 'romadhonbyar', 'Ahmad Romadhon', 'Pria', 'Jl.Raya Pasar Kecapi', 'Bekasi', 'Jawa Barat', '17415', 'romadhon.byar@gmail.com', '08978596665', '1098329128391289', '1994-03-10'),
-(3, 8, 2, 'TR0002', '1', 'asus1.jpg', '05:56:22', '07-01-14', '-', 'romadhonbyar', 'Ahmad Romadhon', 'Pria', 'Jl.Raya Pasar Kecapi', 'Bekasi', 'Jawa Barat', '17415', 'romadhon.byar@gmail.com', '08978596665', '1098329128391289', '1994-03-10'),
-(4, 1, 2, 'TR0003', '1', 'acer3.jpg', '06:12:21', '08-01-14', 'Pengiriman Sukses', 'romadhonbyar', 'Ahmad Romadhon', 'Pria', 'Jl.Raya Pasar Kecapi', 'Bekasi', 'Jawa Barat', '17415', 'romadhon.byar@gmail.com', '08978596665', '1098329128391289', '1994-03-10'),
-(5, 23, 2, 'TR0004', '1', 'asus-pc.jpg', '06:26:56', '08-01-14', '-', 'romadhonbyar', 'Ahmad Romadhon', 'Pria', 'Jl.Raya Pasar Kecapi', 'Bekasi', 'Jawa Barat', '17415', 'romadhon.byar@gmail.com', '08978596665', '1098329128391289', '1994-03-10'),
-(6, 7, 2, 'TR0004', '1', 'asus.gif', '06:26:56', '08-01-14', '-', 'romadhonbyar', 'Ahmad Romadhon', 'Pria', 'Jl.Raya Pasar Kecapi', 'Bekasi', 'Jawa Barat', '17415', 'romadhon.byar@gmail.com', '08978596665', '1098329128391289', '1994-03-10'),
-(7, 20, 2, 'TR0004', '2', 'flashdisk_toshiba.jpg', '06:26:56', '08-01-14', '-', 'romadhonbyar', 'Ahmad Romadhon', 'Pria', 'Jl.Raya Pasar Kecapi', 'Bekasi', 'Jawa Barat', '17415', 'romadhon.byar@gmail.com', '08978596665', '1098329128391289', '1994-03-10'),
-(8, 23, 2, 'TR0005', '1', 'asus-pc.jpg', '07:52:58', '08-01-14', '-', 'romadhonbyar', 'Ahmad Romadhon', 'Pria', 'Jl.Raya Pasar Kecapi', 'Bekasi', 'Jawa Barat', '17415', 'romadhon.byar@gmail.com', '08978596665', '1098329128391289', '1994-03-10'),
-(9, 22, 4, 'TR0006', '1', 'intel-i5.jpg', '07:56:00', '08-01-14', '-', 'User', 'User Coba', 'Pria', 'Jl.', 'B', 'J', '12345', 'romadhon.byar@gmail.com', '0129109201', '902380192839012', '1993-01-15'),
-(10, 17, 4, 'TR0007', '2', 'hp4.jpg', '07:58:19', '08-01-14', 'Pengiriman Sukses', 'User', 'User Coba', 'Pria', 'Jl.Raya Kerja Bakti', 'Solo', 'Jawa Tengah', '19023', 'romadhon.byar@gmail.com', '02910903940394', '0219834993498237', '1991-01-24'),
-(11, 10, 4, 'TR0007', '1', 'asus3.jpg', '07:58:19', '08-01-14', 'Pengiriman Sukses', 'User', 'User Coba', 'Pria', 'Jl.Raya Kerja Bakti', 'Solo', 'Jawa Tengah', '19023', 'romadhon.byar@gmail.com', '02910903940394', '0219834993498237', '1991-01-24'),
-(12, 2, 4, 'TR0007', '1', 'acer2.jpg', '07:58:19', '08-01-14', 'Pengiriman Sukses', 'User', 'User Coba', 'Pria', 'Jl.Raya Kerja Bakti', 'Solo', 'Jawa Tengah', '19023', 'romadhon.byar@gmail.com', '02910903940394', '0219834993498237', '1991-01-24'),
-(13, 11, 4, 'TR0007', '1', 'asus4.gif', '07:58:19', '08-01-14', 'Pengiriman Sukses', 'User', 'User Coba', 'Pria', 'Jl.Raya Kerja Bakti', 'Solo', 'Jawa Tengah', '19023', 'romadhon.byar@gmail.com', '02910903940394', '0219834993498237', '1991-01-24');
+(1, 11, 2, 'TR0001', '1', 'asus4.gif', '23:07:19', '07-01-14', '-', 'romadhonbyar', 'Ahmad Romadhon', 'Pria', 'Jl.Raya Pasar Kecapi', 'Bekasi', 'Jawa Barat', '17415', 'user@gmail.com', '0897000000', '1098329128391289', '1994-03-10'),
+(2, 9, 2, 'TR0002', '2', 'asus2.jpg', '05:56:22', '07-01-14', '-', 'romadhonbyar', 'Ahmad Romadhon', 'Pria', 'Jl.Raya Pasar Kecapi', 'Bekasi', 'Jawa Barat', '17415', 'user@gmail.com', '0897000000', '1098329128391289', '1994-03-10'),
+(3, 8, 2, 'TR0002', '1', 'asus1.jpg', '05:56:22', '07-01-14', '-', 'romadhonbyar', 'Ahmad Romadhon', 'Pria', 'Jl.Raya Pasar Kecapi', 'Bekasi', 'Jawa Barat', '17415', 'user@gmail.com', '0897000000', '1098329128391289', '1994-03-10'),
+(4, 1, 2, 'TR0003', '1', 'acer3.jpg', '06:12:21', '08-01-14', 'Pengiriman Sukses', 'romadhonbyar', 'Ahmad Romadhon', 'Pria', 'Jl.Raya Pasar Kecapi', 'Bekasi', 'Jawa Barat', '17415', 'user@gmail.com', '0897000000', '1098329128391289', '1994-03-10'),
+(5, 23, 2, 'TR0004', '1', 'asus-pc.jpg', '06:26:56', '08-01-14', '-', 'romadhonbyar', 'Ahmad Romadhon', 'Pria', 'Jl.Raya Pasar Kecapi', 'Bekasi', 'Jawa Barat', '17415', 'user@gmail.com', '0897000000', '1098329128391289', '1994-03-10'),
+(6, 7, 2, 'TR0004', '1', 'asus.gif', '06:26:56', '08-01-14', '-', 'romadhonbyar', 'Ahmad Romadhon', 'Pria', 'Jl.Raya Pasar Kecapi', 'Bekasi', 'Jawa Barat', '17415', 'user@gmail.com', '0897000000', '1098329128391289', '1994-03-10'),
+(7, 20, 2, 'TR0004', '2', 'flashdisk_toshiba.jpg', '06:26:56', '08-01-14', '-', 'romadhonbyar', 'Ahmad Romadhon', 'Pria', 'Jl.Raya Pasar Kecapi', 'Bekasi', 'Jawa Barat', '17415', 'user@gmail.com', '0897000000', '1098329128391289', '1994-03-10'),
+(8, 23, 2, 'TR0005', '1', 'asus-pc.jpg', '07:52:58', '08-01-14', '-', 'romadhonbyar', 'Ahmad Romadhon', 'Pria', 'Jl.Raya Pasar Kecapi', 'Bekasi', 'Jawa Barat', '17415', 'user@gmail.com', '0897000000', '1098329128391289', '1994-03-10'),
+(9, 22, 4, 'TR0006', '1', 'intel-i5.jpg', '07:56:00', '08-01-14', '-', 'User', 'User Coba', 'Pria', 'Jl.', 'B', 'J', '12345', 'user@gmail.com', '0129109201', '902380192839012', '1993-01-15'),
+(10, 17, 4, 'TR0007', '2', 'hp4.jpg', '07:58:19', '08-01-14', 'Pengiriman Sukses', 'User', 'User Coba', 'Pria', 'Jl.Raya Kerja Bakti', 'Solo', 'Jawa Tengah', '19023', 'user@gmail.com', '02910903940394', '0219834993498237', '1991-01-24'),
+(11, 10, 4, 'TR0007', '1', 'asus3.jpg', '07:58:19', '08-01-14', 'Pengiriman Sukses', 'User', 'User Coba', 'Pria', 'Jl.Raya Kerja Bakti', 'Solo', 'Jawa Tengah', '19023', 'user@gmail.com', '02910903940394', '0219834993498237', '1991-01-24'),
+(12, 2, 4, 'TR0007', '1', 'acer2.jpg', '07:58:19', '08-01-14', 'Pengiriman Sukses', 'User', 'User Coba', 'Pria', 'Jl.Raya Kerja Bakti', 'Solo', 'Jawa Tengah', '19023', 'user@gmail.com', '02910903940394', '0219834993498237', '1991-01-24'),
+(13, 11, 4, 'TR0007', '1', 'asus4.gif', '07:58:19', '08-01-14', 'Pengiriman Sukses', 'User', 'User Coba', 'Pria', 'Jl.Raya Kerja Bakti', 'Solo', 'Jawa Tengah', '19023', 'user@gmail.com', '02910903940394', '0219834993498237', '1991-01-24');
 
 --
 -- Ketidakleluasaan untuk tabel pelimpahan (Dumped Tables)
